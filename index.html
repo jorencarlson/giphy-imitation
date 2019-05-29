@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Giphy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light
+    justify-content-center align-items-center bg-secondary fixed-top id="navbar">
+        <a href="."><img class="m-2"
+        src="images/giphy_logo.png" id="logo">
+        <a href="giphy/index.html"></a>
+        </img>
+        <form class="d-flex
+        justify-content-center align-items-center w-75" name="search-form"
+        id="search-form" onsubmit="return false">
+            <input class="form-control flex-grow-1" type="search"
+            placeholder="Search" aria-label="Search" name="search" id="search">
+            <input type="image" name="submit" id="my-submit-btn" class="m-2"
+            src="images/search_icon.png"
+            alt="Submit"/>
+        </form>
+    </nav>
+    <div class="d-flex justify-content-center align-items-center flex-wrap
+    w-100 h-100" id="main-container"></div>
+</body>
+<script src="main.js"></script>
+</html>
