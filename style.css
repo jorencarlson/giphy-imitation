@@ -1,0 +1,42 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+#my-submit-btn {
+    width: 50px;
+    height: 50px;
+}
+
+#navbar {
+    height: 65px;
+}
+
+#main-container {
+    position: relative;
+    top: 60px;
+}
+
+.my-img-container {
+    margin: 10px;
+}
+
+#load-more-container {
+    margin: 10px;
+}
+
+#no-gifs-notice {
+    width: 50%;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    padding: 0px !important;
+    margin: 0px !important;
+    background-color: black !important;
+}
